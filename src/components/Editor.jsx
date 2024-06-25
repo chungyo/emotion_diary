@@ -1,12 +1,10 @@
 import './Editor.css'
 import EmotionItem from "./EmotionItem.jsx";
 import Button from "./Button.jsx";
-import {useState, useEffect} from "react";
+import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
 import {emotionList} from "../util/constant.js";
 import getStringedDate from "../util/get-stringed-date.js";
-
-
 
 
 const Editor = ({onSubmit, initData}) => {
@@ -77,7 +75,7 @@ const Editor = ({onSubmit, initData}) => {
                 </div>
             </section>
             <section className="content_section">
-                <h4>오늘의 일기</h4>
+                <h4>오늘의 성장 일기</h4>
                 <textarea
                     name={"content"}
                     value={input.content}

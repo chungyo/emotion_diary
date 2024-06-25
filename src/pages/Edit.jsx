@@ -1,10 +1,9 @@
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import Header from "../components/Header.jsx";
 import Button from "../components/Button.jsx";
 import Editor from "../components/Editor.jsx";
-import {useNavigate} from "react-router-dom";
-import {useContext, useEffect, useState} from "react";
-import {DiaryDispatchContext, DiaryStateContext} from "../App";
+import {useContext} from "react";
+import {DiaryDispatchContext} from "../App";
 import useDiary from "../hooks/useDiary";
 import usePageTitle from "../hooks/usePageTitle";
 

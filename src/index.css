@@ -3,6 +3,11 @@
     src: url('/public/NanumPenScript-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'PretendardRegular';
+    src: url('/public/Pretendard-Regular.otf');
+}
+
 html,
 body {
     display: flex;

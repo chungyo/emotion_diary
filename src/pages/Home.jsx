@@ -1,9 +1,8 @@
-import {useState, useContext} from "react";
-import {DiaryStateContext, DiaryDispatchContext} from "../App";
+import {useContext, useState} from "react";
+import {DiaryStateContext} from "../App";
 import Header from '../components/Header'
 import Button from '../components/Button'
 import DiaryList from "../components/DiaryList.jsx";
-import DiaryItem from "../components/DiaryItem.jsx";
 import usePageTitle from "../hooks/usePageTitle.jsx";
 
 const getMonthlyData = (pivotDate, data) => {
@@ -32,7 +31,7 @@ const Home = () => {
 
     const monthlyData = getMonthlyData(pivotDate, data)
 
-    usePageTitle("감정 일기장")
+    usePageTitle("성장 일기장")
 
     const onIncreaseMonth = () => {
         setPivotDate(new Date(pivotDate.getFullYear(), pivotDate.getMonth() + 1))
