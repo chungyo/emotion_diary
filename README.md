@@ -1,12 +1,60 @@
-<<<<<<< HEAD
-# React + Vite
+# 📝 감정 일기장
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![감정 일기장 로고]
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# emotion_diary
->>>>>>> 5475c37907ea7bc6ddc6c22f7efa9785f2724d22
+
+감정 일기장은 나만의 감정을 기록하고 돌아볼 수 있는 특별한 공간입니다. 일기를 통해 자신의 감정을 표현하고, 그 감정의 변화를 추적할 수 있습니다. 📈💡
+
+## ✨ 주요 기능
+
+- ✏️ **일기 작성**: 날짜, 감정, 내용을 입력하여 나만의 일기를 작성할 수 있습니다.
+- 😊 **감정 선택**: 기쁨, 슬픔, 화남, 평온 등 다양한 감정 아이콘 중에서 선택할 수 있습니다.
+- 📅 **일기 목록**: 작성한 일기들을 날짜 순으로 한 눈에 확인할 수 있습니다.
+- 🔍 **일기 상세보기**: 작성한 일기의 상세 내용을 확인하고 감정을 되돌아볼 수 있습니다.
+- ✏️ **일기 수정 및 삭제**: 작성한 일기를 언제든지 수정하거나 삭제할 수 있습니다.
+
+## 🛠️ 기술 스택
+
+- ⚛️ **React**: 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리입니다.
+- 🌐 **HTML/CSS**: 웹 페이지의 구조와 스타일을 정의합니다.
+- ✨ **JavaScript**: 웹 페이지의 동적인 기능을 구현합니다.
+- 💾 **Web Storage**: 일기 데이터를 로컬에 저장하고 관리합니다.
+
+## 🚀 설치 및 실행
+
+1. 레포지토리를 클론합니다.
+
+```
+git clone https://github.com/yourusername/emotion-diary.git
+```
+
+2. 프로젝트 디렉토리로 이동합니다.
+
+```
+cd emotion-diary
+```
+
+3. 필요한 종속성을 설치합니다.
+
+```
+npm install
+```
+
+4. 개발 서버를 시작합니다.
+
+```
+npm start
+```
+
+5. 웹 브라우저에서 `http://localhost:3000`에 접속하여 감정 일기장을 사용해보세요! ✏️😊
+
+## 🤝 기여
+
+개선 사항이나 새로운 아이디어가 있다면 언제든지 환영합니다. 이슈를 남기거나 풀 리퀘스트를 보내주세요. 함께 감정 일기장을 발전시켜 나가요! 🌟
+
+
+## 참조
+[2024] 한입 크기로 잘라 먹는 리액트(React.js) : 기초부터 실전까지
+
+
